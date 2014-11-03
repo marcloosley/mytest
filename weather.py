@@ -1,5 +1,6 @@
 import math
 import weather
+#this in someone's work
 
 def weatherMessage(temp, low, med):
 	temp = 40 * math.sin(2.5)

@@ -7,10 +7,18 @@ def removePunctuation(text):
 
 def readHansard(d, filename):
 	#open the file
-	readfile = open('PMQs_221014.txt')
-	
+	readfile = open(filename)
+	for line in readfile:
+		print line		
 	#each line should strip off any newline characters, remove punctuation then split the line on spaces into a list of words.
 	#use for loop to conert each word to lower case, add each word as a key into the dictionary.
 	#if the word is already present increment the value by 1.
 	#close the file
 	#purpose is to modify the dict, check the 
+
+
+
+dict = {}
+readHansard(dict, 'PMQs_221014.txt')
+
+
